@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+body{
+    background: #211e1e;
+}
+
+section{
+    width: 90%;
+    max-width: 1600px;
+    height: 625px;
+    border: 4px solid #0d4b85;
+    margin: 90px auto;
+}
+
+#fila{
+    width: 100%;
+    display: flex;
+}
+
+#foto{
+    width: 40%;
+}
+
+#info{
+    width:60%;
+    padding-left: 25px;
+}
+
+#info h2{
+    color: #2ecc5d;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 0;
+}
+
+#info h1    {   
+    color: #e6eaeb;
+    font-size: 56px;
+    font-weight: 700;
+    font-family: 'Anton', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#info #detalle{
+    width: 120px;
+    height: 4px;
+    background: #2ecc5d;
+    margin-bottom: 40px;
+}
+
+#info p{
+    color: #e8e8e8;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+#info article{
+    border: 4px solid #2ecc5d;
+    width: 90%;
+}
+article ul li{
+    color: #ffff;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    list-style: none;
+    width: 350px;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+#info #redes{
+    margin-top: 40px;
+}
+
+#info #redes a{
+    margin: 0 10px;
+}
+
+#redes a img{
+    transition: .5s;
+}
+
+#redes a img:hover{
+    transform: scale(1.5);
+}
